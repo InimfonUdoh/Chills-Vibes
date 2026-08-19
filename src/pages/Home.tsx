@@ -37,7 +37,9 @@ const Home = () => {
           <SectionTitle
             eyebrow="The Next One"
             title="Jersey Party is almost here"
-            description="Get ready for an unforgettable night of music, fashion, energy and good vibes. Jersey Party brings together people who love great music, great company and unforgettable moments."
+            description="🏟️🔥 THE LEAGUE GAME IS ON! AND CHILL & VIBES presents: JERSEY PARTY! 👕🎉
+                          A night where your jersey is your statement, your squad is your team, and the vibes are guaranteed.
+                        Rock your favorite club, national team, NBA Classic, vintage gem, or iconic jersey and come ready to JIGGY!."
           />
 
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-3">
