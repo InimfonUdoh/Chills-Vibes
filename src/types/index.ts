@@ -25,12 +25,12 @@ export interface TicketOption {
   highlight?: boolean;
 }
 
-export interface GalleryImage {
-  id: string;
-  src: string;
-  caption: string;
-  span?: "tall" | "wide" | "normal";
-}
+// export interface GalleryImage {
+//   id: string;
+//   src: string;
+//   caption: string;
+//   span?: "tall" | "wide" | "normal";
+// }
 
 export interface SelectedTicket {
   ticketId: string;
