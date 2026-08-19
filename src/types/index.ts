@@ -14,7 +14,7 @@ export interface EventItem {
   ticketsAvailable: boolean;
 }
 
-export type TicketTier = "Early Bird" | "Stand Stool" | "VIP Lounge";
+export type TicketTier = "Early Bird" | "Standing Table" | "VIP Lounge";
 
 export interface TicketOption {
   id: string;

@@ -8,14 +8,14 @@ export const ticketOptions: TicketOption[] = [
     tier: "Early Bird",
     description: "Admit One Person",
     price: 4000,
-    perks: ["Entry for 1", "Access to main floor",],
+    perks: ["Entry for 1", "Access to the Hub",],
   },
   {
     id: "ticket-stand-stool",
-    tier: "Stand Stool",
+    tier: "Standing Table",
     description: "Admit 5 People",
     price: 70000,
-    perks: ["Entry for 5", "Reserved stand stool",],
+    perks: ["Entry for 5", "Reserved standing table",],
     highlight: true,
   },
   {

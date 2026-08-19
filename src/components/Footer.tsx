@@ -18,7 +18,10 @@ const Footer = () => {
         <div className="flex flex-col gap-4 sm:col-span-2 lg:col-span-1">
           <img src={logo} alt="Chills & Vibes" className="h-10 w-auto" />
           <p className="max-w-xs text-sm text-mute">
-            Your Party Hub — premium nightlife experiences, one unforgettable event at a time.
+            Your Party Hub📢🏁
+          </p>
+          <p className="max-w-xs text-sm text-mute">
+            WHERE EVERY NIGHT IS AN EXPERIENCE.
           </p>
         </div>
 
@@ -69,7 +72,7 @@ const Footer = () => {
           <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gold-light">
             Get In Touch
           </h4>
-          <p className="text-sm text-mute">Independence Hall, Abak &amp; beyond.</p>
+          <p className="text-sm text-mute">Independence Hall, Abak</p>
           <p className="mt-2 text-sm text-mute">+234 704 249 1149</p>
         </div>
       </div>
