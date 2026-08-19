@@ -10,10 +10,10 @@ import {
 import Hero from "../components/Hero";
 import SectionTitle from "../components/SectionTitle";
 import EventCard from "../components/EventCard";
-// import Gallery from "../components/Gallery";
+import Gallery from "../components/Gallery";
 import Button from "../components/Button";
 import { events, featuredEvent } from "../data/events";
-// import { galleryImages } from "../data/gallery";
+import { galleryImages } from "../data/gallery";
 
 const infoCards = [
   { icon: HiOutlineCalendar, label: "Event Date", value: featuredEvent.date },
@@ -75,7 +75,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* GALLERY
+      {/* GALLERY */}
       <section className="section-pad bg-ink-900/60">
         <div className="container-x">
           <SectionTitle
@@ -85,7 +85,7 @@ const Home = () => {
           />
           <Gallery images={galleryImages} />
         </div>
-      </section> */}
+      </section>
 
       {/* UPCOMING EVENTS PREVIEW */}
       <section className="section-pad">
