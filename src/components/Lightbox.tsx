@@ -1,14 +1,14 @@
 import { useEffect, useCallback } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { HiOutlineX, HiChevronLeft, HiChevronRight } from "react-icons/hi";
-import type { GalleryImage } from "../types";
+// import type { GalleryImage } from "../types";
 
-interface LightboxProps {
-  images: GalleryImage[];
-  activeIndex: number | null;
-  onClose: () => void;
-  onNavigate: (index: number) => void;
-}
+// interface LightboxProps {
+//   images: GalleryImage[];
+//   activeIndex: number | null;
+//   onClose: () => void;
+//   onNavigate: (index: number) => void;
+// }
 
 const Lightbox = ({ images, activeIndex, onClose, onNavigate }: LightboxProps) => {
   const isOpen = activeIndex !== null;
