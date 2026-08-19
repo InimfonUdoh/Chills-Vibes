@@ -81,7 +81,9 @@ const Home = () => {
           <SectionTitle
             eyebrow="The Vibe"
             title="Moments from past nights"
-            description="COMING SOON"
+            description="Moments from past nights. ✨
+            The music. The laughter. The energy.
+            Just good vibes and memories that stay with you. 🥂"
           />
           <Gallery images={galleryImages} />
         </div>
